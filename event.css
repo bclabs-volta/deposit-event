@@ -1,0 +1,178 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url("img/bgimg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color:white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow: hidden;
+  }
+
+h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+h3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+h4{
+    margin-top: 5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h5{
+    text-align: center;
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+
+li{
+    margin-top: 0.75rem;
+    line-height: 1.5rem;
+}
+
+button{
+    margin-top: 3%;
+    margin-right: 3%;
+    height: 5rem;
+    background-color: #B90DD0; /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2rem;
+    color:white;
+    border-radius: 0.25rem;
+    width: 25%;
+}
+
+.main{
+    position:absolute;
+    height:100%;
+    width: 70%;
+    left:15%;
+    right: 15%;
+    padding-right:15%;
+    justify-content: top;
+    overflow-y:scroll;
+}
+.intro{
+    padding: 10% 0 3% 0;
+}
+.rocket{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    width: 30%;
+    z-index: 0;
+    mix-blend-mode: screen;
+}
+.action{
+    display: flex;
+}
+.howto{
+    width: 100%;
+    display: flex;
+}
+.step1{
+    width: 33%;
+    align-items: center;
+}
+.step2{
+    width: 33%;
+    align-items: center;
+}
+.step3{
+    width: 33%;
+    align-items: center;
+}
+.terms{
+    padding-bottom: 10%;
+}
+
+.register1{
+    visibility: visible;
+}
+.register2{
+    visibility: hidden;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    h1 {
+        font-size: 5rem;
+        line-height: 5rem;
+        font-weight: 800;
+        margin-bottom: 0px;
+    }
+    
+    h2{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    h4{
+        margin-top: 2rem;
+    }
+    .main{
+        position:absolute;
+        height:100%;
+        width: 80%;
+        left:10%;
+        right: 10%;
+        padding-right:10%;
+        justify-content: top;
+        overflow-y:scroll;
+    }
+    .rocket{
+        top:5%;
+    }
+    .action{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    button{
+        width: 50%;
+        padding: 1rem;
+    }
+
+    .register1{
+        visibility: hidden;
+    }
+    .register2{
+        visibility: visible;
+    }
+    .howto{
+        flex-direction: column;
+    }
+    .step1{
+        width: 100%;
+        align-items: center;
+    }
+    .step2{
+        width: 100%;
+        align-items: center;
+    }
+    .step3{
+        width: 100%;
+        align-items: center;
+    }
+
+}
