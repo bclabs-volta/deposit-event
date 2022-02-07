@@ -78,9 +78,9 @@ button{
 }
 .rocket{
     position: absolute;
-    top: 20%;
+    top: 12%;
     right: 5%;
-    width: 30%;
+    width: 28%;
     z-index: 0;
     mix-blend-mode: screen;
 }
@@ -112,7 +112,39 @@ button{
 }
 .register2{
     visibility: hidden;
+    /* display:none; */
 }
+
+.depImg{
+    width:85%;
+    justify-content: center;
+    align-items: center;
+}
+.glow{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 800;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+.emphasis{
+    color: #e600ff;
+    font-weight: 800;
+    /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate; */
+}
+
+@-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 1px #B90DD0, 0 0 2px #B90DD0, 0 0 3px #B90DD0, 0 0 4px #B90DD0, 0 0 5px #B90DD0, 0 0 6px #B90DD0, 0 0 7px #B90DD0;
+    }
+    to {
+      text-shadow: 0 0 2px #B90DD0, 0 0 3px #B90DD0, 0 0 4px #B90DD0, 0 0 5px #B90DD0, 0 0 6px #B90DD0, 0 0 7px #B90DD0, 0 0 8px #B90DD0;
+    }
+  }
 
 
 @media only screen and (max-width: 1000px) {
@@ -143,6 +175,9 @@ button{
     .rocket{
         top:5%;
     }
+    .intro{
+    padding: 10% 0 3% 0;
+}
     .action{
         display: flex;
         flex-direction: column;
@@ -155,6 +190,7 @@ button{
 
     .register1{
         visibility: hidden;
+        display:none;
     }
     .register2{
         visibility: visible;
@@ -165,13 +201,20 @@ button{
     .step1{
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
     .step2{
         width: 100%;
         align-items: center;
+        justify-content: center;
     }
     .step3{
         width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .depImg{
+        width:100%;
         align-items: center;
     }
 
