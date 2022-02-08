@@ -86,6 +86,7 @@ button{
 }
 .action{
     display: flex;
+    width: 80%;
 }
 .howto{
     width: 100%;
@@ -109,7 +110,7 @@ button{
 
 .register1{
     visibility: visible;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 800;
 }
 .register2{
