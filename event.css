@@ -109,7 +109,7 @@ button{
 
 .register1{
     visibility: visible;
-    font-size: 2.25rem;
+    font-size: 2rem;
     font-weight: 800;
 }
 .register2{
@@ -208,7 +208,7 @@ text-decoration: underline;
     }
     .register2{
         visibility: visible;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
         font-weight: 800;
     }
     .howto{
