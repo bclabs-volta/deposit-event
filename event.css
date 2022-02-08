@@ -80,7 +80,7 @@ button{
     position: absolute;
     top: 12%;
     right: 5%;
-    width: 28%;
+    width: 30%;
     z-index: 0;
     mix-blend-mode: screen;
 }
@@ -110,7 +110,7 @@ button{
 
 .register1{
     visibility: visible;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: 800;
 }
 .register2{
@@ -189,6 +189,7 @@ text-decoration: underline;
     }
     .rocket{
         top:5%;
+        width: 45%;
     }
     .intro{
     padding: 10% 0 3% 0;
